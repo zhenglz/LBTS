@@ -1,10 +1,10 @@
 # LBTS
-Ligand based target searching
+<h2>Ligand based target searching</h2>
 
 This project is a part of the "Large-Scale Target Identification with Reverse Docking" project. 
 
-Author: Haiping Zhang
-Contact: hpzhang@siat.ac.cn
+<h2>Author: Haiping Zhang</h2>
+<h2>Contact: hpzhang@siat.ac.cn</h2>
 
 we employed a novel computational pipeline for assisting protein target discovery. 
 The pipeline allows de novo identification of protein targets for herbal ingredients 
@@ -22,7 +22,7 @@ alternate option to explore the MOA of herb medicine within a reasonable computa
 It is also particularly valuable in aiding precise drug discovery and drug repurposing 
 via an economical and efficient route. 
 
-Please cite: Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using 
-             a Reverse Docking Approach. JCIM. 2018
+<h2>Please cite: </h2>
+Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using a Reverse Docking Approach. JCIM. 2018
 			 
-How to use:
+<h2>How to use:</h2>
