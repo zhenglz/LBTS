@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# check whether ./receptor fold exist
 if [ -d receptor ]; then
 	cd receptor
 else
@@ -16,7 +17,7 @@ do
 	a=`python $pdbtool/pdb_centermass.py $f`
 
 	# record the center of mass of each receptor
-	echo -e "$a" >> ../aa.txt 
+	echo -e "$a" >> ../receptor_com.txt 
 done
 
 exit 1;

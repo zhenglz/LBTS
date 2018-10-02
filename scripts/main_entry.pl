@@ -1,13 +1,13 @@
 # call script 1.bash to define receptor pocket center
-system("bash 1.bash");
+system("bash COM.bash");
 
 # read pocket center information
-open(FN, "<aa.txt");
+open(FN, "<receptor_com.txt");
 @a=<FN>;
 chomp(@a);
 
 # prepare the receptor and ligand pdb files for vina docking
-system("bash run.bash");
+system("bash prepare_pdbqt.bash");
 
 # if the result fold exists, delete it
 system("rm -rf Docking");
@@ -32,5 +32,5 @@ system("mkdir Docking/$xxx");
 system("/data/home/ZHP/autodock_vina/autodock_vina_1_1_2_linux_x86/bin/vina --config conf.txt --receptor receptor/$name --center_x @vv[1] --center_y @vv[2] --center_z @vv[3] --out Docking/$xxx/out.pdbqt --log Docking/$xxx/log.txt")
 
 }
-system("bash score.bash");
+system("bash scoring.bash");
 close(FN);
