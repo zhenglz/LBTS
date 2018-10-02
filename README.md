@@ -6,10 +6,12 @@ This project is a part of the "Large-Scale Target Identification with Reverse Do
 <h2>Author: Haiping Zhang</h2>
 <h2>Contact: hpzhang@siat.ac.cn</h2>
 
-we employed a novel computational pipeline for assisting protein target discovery. 
+<p>
+We employed a novel computational pipeline for assisting protein target discovery. 
 The pipeline allows de novo identification of protein targets for herbal ingredients 
 by simulating ligand-protein interactions against the user-designated protein-ligand collection, 
-in an efficient and high throughput manner. 
+in an efficient and high throughput manner. </p>
+<p>
 We evaluated the pipeline using three Traditional Chinese Medicine (TCM) ingredients 
 such as acteoside, quercetin and epigallocatechin gallate (EGCG) respectively. 
 Majority of the known targets of these ingredients were successfully identified by 
@@ -21,6 +23,7 @@ Through the paper, we insist that the novel computational pipeline provides an
 alternate option to explore the MOA of herb medicine within a reasonable computational time. 
 It is also particularly valuable in aiding precise drug discovery and drug repurposing 
 via an economical and efficient route. 
+</p>
 
 <h2>Please cite: </h2>
 Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using a Reverse Docking Approach. JCIM. 2018
