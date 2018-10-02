@@ -1,5 +1,4 @@
-# LBTS
-<h2>Ligand based target searching</h2>
+# LBTS: Ligand based target searching
 
 This project is a part of the "Large-Scale Target Identification with Reverse Docking" project. 
 
@@ -33,6 +32,11 @@ Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using 
 <p> 2. Process the receptor and ligand molecules for Vina. </p>
 <p> 3. Pass the center of mass of a receptor and the input pdbqt files (of receptor and ligand) to vina </p>
 <p> 4. Rescore and sort the results </p>
+
+## Dependencies:
+1. MGLTools
+2. AutoDock Vina
+3. pdbTools
 
 ## Examples:
 You could download the 3 examples to run in your local evironment.
