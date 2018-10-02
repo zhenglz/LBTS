@@ -39,4 +39,7 @@ Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using 
 3. pdbTools
 
 ## Examples:
-You could download the 3 examples to run in your local evironment.
+You could download the 3 examples to run in your local evironment. Extract the zip files in your working
+directory. Read the README.txt file in each example, run the tutorial according to the README.txt. 
+If you encounter any errors or questions, please raise an issue.
+
