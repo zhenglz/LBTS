@@ -29,3 +29,10 @@ via an economical and efficient route.
 Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using a Reverse Docking Approach. JCIM. 2018
 			 
 <h2>How to use:</h2>
+** 1. Define the center of mass of a receptor protein
+** 2. Process the receptor and ligand molecules for Vina. 
+** 3. Pass the center of mass of a receptor and the input pdbqt files (of receptor and ligand) to vina
+** 4. Rescore and sort the results
+
+## Examples:
+You could download the 3 examples to run in your local evironment.
