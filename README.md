@@ -25,7 +25,10 @@ via an economical and efficient route.
 </p>
 
 <h2>Please cite: </h2>
-Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using a Reverse Docking Approach. JCIM. 2018
+<p>Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using a Reverse Docking Approach. 2018. </p>
+<p>Lesnik, S.; Stular, T.; Brus, B.; Knez, D.; Gobec, S.; Janezic, D.; Konc, J., LiSiCA: A Software for Ligand-Based 
+Virtual Screening and Its Application for the Discovery of Butyrylcholinesterase Inhibitors. 
+Journal of chemical information and modeling 2015, 55, 1521-8.</p>
 			 
 <h2>How to use:</h2>
 <p> 1. Define the center of mass of a receptor protein </p>
@@ -34,9 +37,10 @@ Haiping Zhang et al. Large-Scale Target Identification of Herbal Medicine Using 
 <p> 4. Rescore and sort the results </p>
 
 ## Dependencies:
-1. MGLTools
-2. AutoDock Vina
-3. pdbTools
+#### 1. MGLTools
+#### 2. AutoDock Vina
+#### 3. pdbTools
+#### 4. lisca
 
 ## Examples:
 You could download the 3 examples to run in your local evironment. Extract the zip files in your working
